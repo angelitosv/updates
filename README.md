@@ -14,4 +14,4 @@ import threading itertools PyInquirer
 python UpdatePackages.py
 ``
 ## Muestra
-![Example](https://github.com/angelitosv/updates/images/example.png)
+![Example](https://github.com/angelitosv/updates/blob/master/images/example.png)
