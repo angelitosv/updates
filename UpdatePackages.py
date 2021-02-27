@@ -11,10 +11,6 @@ def worker():
 
     ciclo = itertools.cycle(r'\|/-')
 
-    #for i in range(1, 200):
-    #    print(msg + next(ciclo) if i+1 < 200 else msg + "done", end='\r')
-    #    sleep(0.1)
-
     while getattr(t, "do_exec", True):
         print(msg + next(ciclo), end='\r')
         sleep(0.1)
